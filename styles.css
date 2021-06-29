@@ -1,0 +1,96 @@
+body {
+    font-family: raleway, sans-serif;
+    font-size: 0.9em;
+}
+
+#logo {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline-flex;
+    margin-right: 45px;
+}
+
+a {
+    text-decoration: none;
+    color: #a5a5a5;
+}
+
+nav a:hover {
+    text-decoration: overline;
+    color: #0065FC;
+}
+
+.bouton, ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.container_principal {
+    display: flex;
+    width: 100%;
+}
+
+.container_1 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    width: 65%;
+    margin-right: 2%;
+}
+
+.container_2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    margin-right: 1%;
+    width: 35%;
+}
+
+.card {
+    display: flex;
+    border: 5px solid white;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.image {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.image2 {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.card2 {
+    display: flex;
+    border: 5px solid white;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.hebergements {
+    width: 65%;
+}
+
+.text {
+    margin-left: 15px;
+}
