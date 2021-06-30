@@ -3,6 +3,10 @@ body {
     font-size: 0.9em;
 }
 
+.bloc_page {
+    width: auto;
+}
+
 #logo {
     display: flex;
     flex-direction: column;
@@ -37,14 +41,12 @@ nav a:hover {
 
 .barrerecherche {
     display: inline-flex;
-    max-width: 100%;
-    overflow: auto;
 }
 
 .icon {
     background-color: #F2F2F2;
-    padding: 1rem 1.25rem;
-    border-radius: 1rem 0 0 1rem;
+    padding: 1em 1.25em;
+    border-radius: 1em 0 0 1em;
     text-align: center;
 }
 
@@ -53,10 +55,10 @@ nav a:hover {
     border-left: none;
     border-top: #F2F2F2 1px solid;
     border-bottom: #F2F2F2 1px solid;
-    padding: 0 1.5rem;
+    padding: 0 1.5em;
     box-sizing: border-box;
-    width: 14rem;
-    font-size: 1rem;
+    width: 14em;
+    font-size: 1em;
     font-weight: bold;
 }
 
@@ -65,24 +67,24 @@ nav a:hover {
     color: white;
     font-weight: bold;
     border: none;
-    border-radius: 0 1rem 1rem 0;
-    padding: 0 1.5rem;
+    border-radius: 0 1em 1em 0;
+    padding: 0 1.5em;
     cursor: pointer;
 }
 
 .ensemble {
     display: flex;
-    margin-top: 2rem;
+    margin-top: 2em;
     flex-wrap: wrap;
 }
 
 .ensemble_filtres {
     display: flex;
     align-items: center;
-    margin-right: 2rem;
+    margin-right: 2em;
     border: 2px solid #d9d9d9;
-    border-radius: 2rem;
-    margin-bottom: 1rem;
+    border-radius: 2em;
+    margin-bottom: 1em;
     cursor: pointer;
     font-weight: bold;
 }
@@ -90,10 +92,8 @@ nav a:hover {
 .filtres {
     background-color: #DEEBFF;
     border-radius: 100%;
-    height: 3rem;
-    width: 3rem;
-    min-height: 3.5rem;
-    min-width: 3.5rem;
+    height: 4em;
+    width: 4em;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -101,7 +101,7 @@ nav a:hover {
 }
 
 .titre_filtres, h2 {
-    margin: 1rem;
+    margin: 1em;
 }
 
 .container_principal {
@@ -124,7 +124,6 @@ nav a:hover {
     background-color: #F2F2F2;
     border-radius: 10px;
     width: 35%;
-    margin-right: 1%;
 }
 
 .card {
@@ -136,8 +135,9 @@ nav a:hover {
     background-color: white;
     border-radius: 20px;
     margin-bottom: 2%;
-    margin-left: 2%;
+    margin-right: 2%;
     line-height: 1px;
+    box-shadow: 0px 0px 5px #0000002e;
 }
 
 .image {
@@ -160,6 +160,7 @@ nav a:hover {
     margin-bottom: 5%;
     margin-left: 8%;
     margin-right: 15%;
+    box-shadow: 0px 0px 5px #0000002e;
 }
 
 .hebergements {
@@ -175,11 +176,14 @@ nav a:hover {
     color: black;
 }
 
-.lien :hover {
-    color: gray;
+.lien2 {
+    display: flex;
+    color: black;
 }
 
 .titre {
+    display: flex;
+    align-items: center;
     width: 100%;
     margin-left: 8%;
 }
@@ -200,6 +204,14 @@ nav a:hover {
     margin-right: 5%;
 }
 
+.container_card2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 .afficher {
     margin-left: 8%;
 }
@@ -208,3 +220,88 @@ nav a:hover {
     color: #0065FC;
 }
 
+.titre2 {
+    width: 100%;
+}
+
+.descr_1 {
+    margin-left: 1em;
+}
+
+.descr_1, .descr_3 {
+    display: flex;
+    width: 23%;
+    border: 0px;
+    border-radius: 1em;
+    box-shadow: 0px 0px 20px #0000002e;
+}
+
+.descr_2, .descr_4 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 23%;
+}
+
+.sous_descr1 {
+    display: flex;
+    border: 0px;
+    border-radius: 1em;
+    box-shadow: 0px 0px 20px #0000002e;
+}
+
+.sous_descr2 {
+    display: flex;
+    margin-top: 3em;
+    border: 0px;
+    border-radius: 1em;
+    box-shadow: 0px 0px 20px #0000002e;
+}
+
+.image_secondaire {
+    position: relative;
+    width: 307px;
+    height: 450px;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+.image_secondaire2 {
+    position: relative;
+    width: 307px;
+    height: 150px;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+.activités {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.activités p {
+    font-weight: bold;
+    color: black;
+    padding-left: 1em;
+    padding-bottom: 1em;
+}
+
+.footer {
+    margin-top: 3%;
+    background-color:#F2F2F2;
+    display: flex;
+    width: 100%;
+}
+
+.a_propos {
+    width: 33%;
+    margin-left: 5%;
+}
+
+.hebergement {
+    width: 33%;
+}
+
+.assistance {
+    width: 33%;
+}
