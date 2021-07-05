@@ -165,7 +165,7 @@ nav a:hover {
 
 .hebergements {
     width: 100%;
-    margin-left: 7%;
+    margin-left: 2em;
 }
 
 .text {
@@ -268,7 +268,7 @@ nav a:hover {
 .image_secondaire2 {
     position: relative;
     width: 307px;
-    height: 150px;
+    height: 170px;
     border-top-left-radius: 1em;
     border-top-right-radius: 1em;
 }
