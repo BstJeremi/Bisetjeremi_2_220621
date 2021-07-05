@@ -306,39 +306,42 @@ nav a:hover {
     width: 33%;
 }
 
-@media all and (max-device-width: 480px)
+@media all and (max-device-width: 767px)
 {
     .container_principal {
         display: flex;
+        flex-flow: column;
         flex-wrap: wrap;
-        width: auto;
+        width: 100%;
     }
 
     .container_1 {
         flex-wrap: wrap;
         background-color: #F2F2F2;
         border-radius: 10px;
-        width: auto;
-        margin-right: 2%;
-        margin-left: 1%;
+        margin-bottom: 20px;
+        width: 100%;
     }
     
     .container_2 {
         flex-wrap: wrap;
         background-color: #F2F2F2;
         border-radius: 10px;
-        width: auto;
+        margin-bottom: 10px;
+        width: 100%;
     }
     
     .card {
         display: flex;
         flex-wrap: wrap;
-        width: auto;
+        width: 100%;
         border: 5px solid white;
         background-color: white;
         border-radius: 20px;
-        margin-bottom: auto;
-        margin-right: auto;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 2px;
+        margin-right: 2px;
         line-height: 1px;
         box-shadow: 0px 0px 5px #0000002e;
     }
@@ -346,20 +349,22 @@ nav a:hover {
     .card2 {
         display: flex;
         flex-wrap: wrap;
-        width: auto;
+        width: 87%;
         border: 5px solid white;
         background-color: white;
         border-radius: 20px;
-        margin-bottom: auto;
-        margin-left: auto;
-        margin-right: auto;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 2px;
+        margin-right: 2px;
         box-shadow: 0px 0px 5px #0000002e;
     }
 
     .activités {
         display: flex;
+        flex-flow: column;
         flex-wrap: wrap;
-        width: auto;
+        width: 100%;
     }
 
     .descr_1 {
@@ -369,32 +374,69 @@ nav a:hover {
     .descr_1, .descr_3 {
         display: flex;
         flex-wrap: wrap;
-        width: auto;
+        width: 100%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 2px;
+        margin-right: 2px;
         border: 0px;
         border-radius: 1em;
         box-shadow: 0px 0px 20px #0000002e;
+        background-color: white;
     }
     
     .descr_2, .descr_4 {
         display: flex;
         flex-wrap: wrap;
-        width: auto;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 2px;
+        margin-right: 2px;
+        width: 100%;
+        background-color: white;
     }
     
     .sous_descr1 {
         display: flex;
         flex-wrap: wrap;
+        width: 100%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 2px;
+        margin-right: 2px;
         border: 0px;
         border-radius: 1em;
         box-shadow: 0px 0px 20px #0000002e;
+        background-color: white;
     }
     
     .sous_descr2 {
         display: flex;
         flex-wrap: wrap;
-        margin-top: 3em;
+        width: 100%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 2px;
+        margin-right: 2px;
         border: 0px;
         border-radius: 1em;
         box-shadow: 0px 0px 20px #0000002e;
+        background-color: white;
+    }
+
+    .image_secondaire {
+        position: relative;
+        width: 307px;
+        height: 450px;
+        border-top-left-radius: 1em;
+        border-top-right-radius: 1em;
+    }
+    
+    .image_secondaire2 {
+        position: relative;
+        width: 307px;
+        height: 170px;
+        border-top-left-radius: 1em;
+        border-top-right-radius: 1em;
     }
 }
