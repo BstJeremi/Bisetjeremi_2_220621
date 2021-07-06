@@ -325,7 +325,19 @@ nav a:hover {
 }
 
 @media all and (max-device-width: 767px) 
-    {   
+    {    
+        header {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        
+        nav li {
+            list-style-type: none;
+            display: inline-flex;
+            margin-right: 45px;
+        }
+
         .ensemble {
             display: flex;
             margin-top: 2em;
@@ -338,10 +350,10 @@ nav a:hover {
         .ensemble_filtres {
             display: flex;
             align-items: center;
-            margin-right: 2em;
+            margin-right: 20px;
             border: 2px solid #d9d9d9;
             border-radius: 2em;
-            margin-bottom: 1em;
+            margin-bottom: 15px;
             font-weight: bold;
         }
 
@@ -350,6 +362,7 @@ nav a:hover {
             flex-flow: column-reverse;
             flex-wrap: wrap;
             width: 100%;
+            margin-top: 20px;
         }
 
         .container_1 {
