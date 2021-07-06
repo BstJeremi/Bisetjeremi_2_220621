@@ -155,7 +155,7 @@ nav a:hover {
 
 .espace {
     display: inline-block;
-    margin: 35px;
+    margin: 25px;
 }
 
 .espace1 {
@@ -184,7 +184,7 @@ nav a:hover {
     width: 100%;
 }
 
-.text {
+.text h3, p{
     margin-left: 10px;
 }
 
@@ -210,10 +210,12 @@ nav a:hover {
 
 .star-full {
     color: #0065FC;
+    margin-top: 10px;
 }
 
 .star-empty {
     color: #F2F2F2;
+    margin-top: 10px;
 }
 
 .container_card {
