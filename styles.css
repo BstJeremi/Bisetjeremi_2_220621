@@ -351,7 +351,7 @@ nav a:hover {
         }
 
         .ensemble h2 {
-            width: 100%;
+            width: 98%;
         }
 
         .ensemble_filtres {
@@ -368,7 +368,7 @@ nav a:hover {
             display: flex;
             flex-flow: column-reverse;
             flex-wrap: wrap;
-            width: 100%;
+            width: 98%;
             margin-top: 20px;
         }
 
@@ -380,7 +380,7 @@ nav a:hover {
             margin-bottom: 20px;
             margin-left: 0px;
             margin-right: 0px;
-            width: 100%;
+            width: 98%;
         }
         
         .container_2 {
@@ -388,13 +388,13 @@ nav a:hover {
             flex-wrap: wrap;
             background-color: #F2F2F2;
             border-radius: 10px;
-            width: 100%;
+            width: 98%;
         }
         
         .card {
             display: flex;
             flex-wrap: wrap;
-            width: 100%;
+            width: 98%;
             border: 5px solid white;
             background-color: white;
             border-radius: 20px;
@@ -409,7 +409,7 @@ nav a:hover {
         .card2 {
             display: flex;
             flex-wrap: wrap;
-            width: 87%;
+            width: 85%;
             border: 5px solid white;
             background-color: white;
             border-radius: 20px;
@@ -442,7 +442,7 @@ nav a:hover {
             flex-flow: column;
             flex-wrap: wrap;
             background-color: white;
-            width: 100%;
+            width: 98%;
         }
 
         .lien_des {
@@ -452,7 +452,7 @@ nav a:hover {
         .descr_1, .descr_3 {
             display: flex;
             flex-wrap: wrap;
-            width: 100%;
+            width: 98%;
             height: 50%;
             margin-top: 5px;
             margin-bottom: 5px;
@@ -471,7 +471,7 @@ nav a:hover {
             margin-bottom: 5px;
             margin-left: 0px;
             margin-right: 0px;
-            width: 100%;
+            width: 98%;
             height: 50%;
             background-color: white;
         }
@@ -479,7 +479,7 @@ nav a:hover {
         .sous_descr1 {
             display: flex;
             flex-wrap: wrap;
-            width: 100%;
+            width: 98%;
             height: 50%;
             margin-top: 5px;
             margin-bottom: 5px;
@@ -494,7 +494,7 @@ nav a:hover {
         .sous_descr2 {
             display: flex;
             flex-wrap: wrap;
-            width: 100%;
+            width: 98%;
             height: 50%;
             margin-top: 5px;
             margin-bottom: 5px;
@@ -508,7 +508,7 @@ nav a:hover {
 
         .image_secondaire {
             position: relative;
-            width: 100%;
+            width: 98%;
             height: 25%;
             border-top-left-radius: 1em;
             border-top-right-radius: 1em;
@@ -516,7 +516,7 @@ nav a:hover {
         
         .image_secondaire2 {
             position: relative;
-            width: 100%;
+            width: 98%;
             height: 25%;
             border-top-left-radius: 1em;
             border-top-right-radius: 1em;
@@ -527,33 +527,33 @@ nav a:hover {
             background-color:#F2F2F2;
             display: flex;
             flex-wrap: wrap;
-            width: 100%;
+            width: 98%;
         }
         
         .a_propos {
             display: flex;
             flex-wrap: wrap;
-            width: 100%;
+            width: 98%;
             margin-left: 5%;
         }
         
         .hebergement {
             display: flex;
             flex-wrap: wrap;
-            width: 100%;
+            width: 98%;
             margin-left: 5%;
         }
         
         .assistance {
             display: flex;
             flex-wrap: wrap;
-            width: 100%;
+            width: 98%;
             margin-left: 5%;
         }
 
         .footer h3, p {
             flex-wrap: wrap;
-            width: 100%;
+            width: 98%;
         }
     }
 
