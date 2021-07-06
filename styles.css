@@ -204,6 +204,10 @@ nav a:hover {
     margin-left: 8%;
 }
 
+.titre h2 {
+    margin-right: 12rem;
+}
+
 .star-full {
     color: #0065FC;
 }
