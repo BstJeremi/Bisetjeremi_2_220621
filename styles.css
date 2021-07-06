@@ -122,7 +122,7 @@ nav a:hover {
     flex-direction: column;
     background-color: #F2F2F2;
     border-radius: 10px;
-    width: 31%;
+    width: 30%;
 }
 
 .card {
@@ -238,6 +238,10 @@ nav a:hover {
     width: 100%;
 }
 
+.secondaire {
+    width: 100%;
+}
+
 .descr_1 {
     margin-left: 1em;
 }
@@ -314,14 +318,17 @@ nav a:hover {
 .a_propos {
     width: 33%;
     margin-left: 5%;
+    margin-bottom: 20px;
 }
 
 .hebergement {
     width: 33%;
+    margin-bottom: 20px;
 }
 
 .assistance {
     width: 33%;
+    margin-bottom: 20px;
 }
 
 @media all and (max-device-width: 767px) 
