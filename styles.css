@@ -177,7 +177,7 @@ nav a:hover {
     width: 100%;
 }
 
-.text h3, p{
+.text h3, p {
     margin-left: 5px;
 }
 
@@ -410,6 +410,16 @@ nav a:hover {
             border-bottom-left-radius: 20px;
             width: 200px;
             height: 200px;
+        }
+
+        .espace {
+            display: inline-block;
+            margin: 25px;
+        }
+        
+        .espace1 {
+            display: inline-block;
+            margin: 25px;
         }
 
         .activités {
