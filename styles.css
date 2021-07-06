@@ -151,6 +151,7 @@ nav a:hover {
     border-bottom-left-radius: 20px;
     width: 200px;
     height: 160px;
+    margin-right: 10px;
 }
 
 .espace {
@@ -176,16 +177,21 @@ nav a:hover {
     width: 100%;
 }
 
+.text h3, p{
+    margin-left: 5px;
+}
+
+.star1 {
+    padding-top: 10px;
+    margin-left: 5px;
+}
+
 .card2 h3, p {
     margin: 5px;
 }
 
 .hebergements {
     width: 100%;
-}
-
-.text h3, p{
-    margin-left: 10px;
 }
 
 .lien {
@@ -201,21 +207,15 @@ nav a:hover {
     display: flex;
     align-items: center;
     width: 100%;
-    margin-left: 8%;
-}
-
-.titre h2 {
-    margin-right: 12rem;
+    margin-left: 20px;
 }
 
 .star-full {
     color: #0065FC;
-    margin-top: 10px;
 }
 
 .star-empty {
     color: #F2F2F2;
-    margin-top: 10px;
 }
 
 .container_card {
