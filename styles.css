@@ -310,226 +310,206 @@ nav a:hover {
     width: 33%;
 }
 
-@media all and (max-device-width: 767px)
-<<<<<<< HEAD
-{   
-    .ensemble {
-        display: flex;
-        margin-top: 2em;
+@media all and (max-device-width: 767px) 
+    {   
+        .ensemble {
+            display: flex;
+            margin-top: 2em;
+        }
+
+        .ensemble h2 {
+            width: 100%;
+        }
+
+        .ensemble_filtres {
+            display: flex;
+            align-items: center;
+            margin-right: 2em;
+            border: 2px solid #d9d9d9;
+            border-radius: 2em;
+            margin-bottom: 1em;
+            font-weight: bold;
+        }
+
+        .container_principal {
+            display: flex;
+            flex-flow: column-reverse;
+        }
+
+        .container_principal {
+            display: flex;
+            flex-flow: column;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+
+        .container_1 {
+            flex-wrap: wrap;
+            background-color:white;
+            background-color: #F2F2F2;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            width: 100%;
+        }
+        
+        .container_2 {
+            flex-wrap: wrap;
+            background-color: #F2F2F2;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            width: 100%;
+        }
+        
+        .card {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            border: 5px solid white;
+            background-color: white;
+            border-radius: 20px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            margin-left: 2px;
+            margin-right: 2px;
+            line-height: 1px;
+            box-shadow: 0px 0px 5px #0000002e;
+        }
+        
+        .card2 {
+            display: flex;
+            flex-wrap: wrap;
+            width: 87%;
+            border: 5px solid white;
+            background-color: white;
+            border-radius: 20px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            margin-left: 2px;
+            margin-right: 2px;
+            box-shadow: 0px 0px 5px #0000002e;
+        }
+
+        .activités {
+            display: flex;
+            flex-flow: column;
+            flex-wrap: wrap;
+            background-color: white;
+            width: 100%;
+        }
+
+        .descr_1 {
+            margin-left: 1em;
+        }
+
+        .lien_des {
+            width: auto;
+        }
+        
+        .descr_1, .descr_3 {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            height: 50%;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            margin-left: 2px;
+            margin-right: 2px;
+            border: 0px;
+            border-radius: 1em;
+            box-shadow: 0px 0px 20px #0000002e;
+            background-color: white;
+        }
+        
+        .descr_2, .descr_4 {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            margin-left: 2px;
+            margin-right: 2px;
+            width: 100%;
+            height: 50%;
+            background-color: white;
+        }
+        
+        .sous_descr1 {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            height: 50%;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            margin-left: 2px;
+            margin-right: 2px;
+            border: 0px;
+            border-radius: 1em;
+            box-shadow: 0px 0px 20px #0000002e;
+            background-color: white;
+        }
+        
+        .sous_descr2 {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            height: 50%;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            margin-left: 2px;
+            margin-right: 2px;
+            border: 0px;
+            border-radius: 1em;
+            box-shadow: 0px 0px 20px #0000002e;
+            background-color: white;
+        }
+
+        .image_secondaire {
+            position: relative;
+            width: 100%;
+            height: 25%;
+            border-top-left-radius: 1em;
+            border-top-right-radius: 1em;
+        }
+        
+        .image_secondaire2 {
+            position: relative;
+            width: 100%;
+            height: 25%;
+            border-top-left-radius: 1em;
+            border-top-right-radius: 1em;
+        }
+
+        .footer {
+            margin-top: 3%;
+            background-color:#F2F2F2;
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+        
+        .a_propos {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            margin-left: 5%;
+        }
+        
+        .hebergement {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            margin-left: 5%;
+        }
+        
+        .assistance {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            margin-left: 5%;
+        }
+
+        .footer h3, p {
+            flex-wrap: wrap;
+            width: 100%;
+        }
     }
 
-    .ensemble h2 {
-        width: 100%;
-    }
-
-    .ensemble_filtres {
-        display: flex;
-        align-items: center;
-        margin-right: 2em;
-        border: 2px solid #d9d9d9;
-        border-radius: 2em;
-        margin-bottom: 1em;
-        font-weight: bold;
-    }
-
-    .container_principal {
-        display: flex;
-        flex-flow: column-reverse;
-=======
-{
-    .container_principal {
-        display: flex;
-        flex-flow: column;
->>>>>>> b488746950b8b641f1cfec8d68d7bed3078ce98f
-        flex-wrap: wrap;
-        width: 100%;
-    }
-
-    .container_1 {
-        flex-wrap: wrap;
-<<<<<<< HEAD
-        background-color:white;
-=======
-        background-color: #F2F2F2;
->>>>>>> b488746950b8b641f1cfec8d68d7bed3078ce98f
-        border-radius: 10px;
-        margin-bottom: 20px;
-        width: 100%;
-    }
-    
-    .container_2 {
-        flex-wrap: wrap;
-        background-color: #F2F2F2;
-        border-radius: 10px;
-        margin-bottom: 10px;
-        width: 100%;
-    }
-    
-    .card {
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        border: 5px solid white;
-        background-color: white;
-        border-radius: 20px;
-        margin-top: 5px;
-        margin-bottom: 5px;
-        margin-left: 2px;
-        margin-right: 2px;
-        line-height: 1px;
-        box-shadow: 0px 0px 5px #0000002e;
-    }
-    
-    .card2 {
-        display: flex;
-        flex-wrap: wrap;
-        width: 87%;
-        border: 5px solid white;
-        background-color: white;
-        border-radius: 20px;
-        margin-top: 5px;
-        margin-bottom: 5px;
-        margin-left: 2px;
-        margin-right: 2px;
-        box-shadow: 0px 0px 5px #0000002e;
-    }
-
-    .activités {
-        display: flex;
-        flex-flow: column;
-        flex-wrap: wrap;
-<<<<<<< HEAD
-        background-color: white;
-=======
->>>>>>> b488746950b8b641f1cfec8d68d7bed3078ce98f
-        width: 100%;
-    }
-
-    .descr_1 {
-        margin-left: 1em;
-    }
-<<<<<<< HEAD
-
-    .lien_des {
-        width: auto;
-    }
-=======
->>>>>>> b488746950b8b641f1cfec8d68d7bed3078ce98f
-    
-    .descr_1, .descr_3 {
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        height: 50%;
-        margin-top: 5px;
-        margin-bottom: 5px;
-        margin-left: 2px;
-        margin-right: 2px;
-        border: 0px;
-        border-radius: 1em;
-        box-shadow: 0px 0px 20px #0000002e;
-        background-color: white;
-    }
-    
-    .descr_2, .descr_4 {
-        display: flex;
-        flex-wrap: wrap;
-        margin-top: 5px;
-        margin-bottom: 5px;
-        margin-left: 2px;
-        margin-right: 2px;
-        width: 100%;
-        height: 50%;
-        background-color: white;
-    }
-    
-    .sous_descr1 {
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        height: 50%;
-        margin-top: 5px;
-        margin-bottom: 5px;
-        margin-left: 2px;
-        margin-right: 2px;
-        border: 0px;
-        border-radius: 1em;
-        box-shadow: 0px 0px 20px #0000002e;
-        background-color: white;
-    }
-    
-    .sous_descr2 {
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        height: 50%;
-        margin-top: 5px;
-        margin-bottom: 5px;
-        margin-left: 2px;
-        margin-right: 2px;
-        border: 0px;
-        border-radius: 1em;
-        box-shadow: 0px 0px 20px #0000002e;
-        background-color: white;
-    }
-
-    .image_secondaire {
-<<<<<<< HEAD
-=======
-        position: relative;
->>>>>>> b488746950b8b641f1cfec8d68d7bed3078ce98f
-        width: 100%;
-        height: 25%;
-        border-top-left-radius: 1em;
-        border-top-right-radius: 1em;
-    }
-    
-    .image_secondaire2 {
-<<<<<<< HEAD
-=======
-        position: relative;
->>>>>>> b488746950b8b641f1cfec8d68d7bed3078ce98f
-        width: 100%;
-        height: 25%;
-        border-top-left-radius: 1em;
-        border-top-right-radius: 1em;
-    }
-<<<<<<< HEAD
-
-    .footer {
-        margin-top: 3%;
-        background-color:#F2F2F2;
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-    }
-    
-    .a_propos {
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        margin-left: 5%;
-    }
-    
-    .hebergement {
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        margin-left: 5%;
-    }
-    
-    .assistance {
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        margin-left: 5%;
-    }
-
-    .footer h3, p {
-        flex-wrap: wrap;
-        width: 100%;
-    }
-}
-=======
-}
->>>>>>> b488746950b8b641f1cfec8d68d7bed3078ce98f
