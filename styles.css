@@ -311,6 +311,7 @@ nav a:hover {
 }
 
 @media all and (max-device-width: 767px)
+<<<<<<< HEAD
 {   
     .ensemble {
         display: flex;
@@ -334,13 +335,23 @@ nav a:hover {
     .container_principal {
         display: flex;
         flex-flow: column-reverse;
+=======
+{
+    .container_principal {
+        display: flex;
+        flex-flow: column;
+>>>>>>> b488746950b8b641f1cfec8d68d7bed3078ce98f
         flex-wrap: wrap;
         width: 100%;
     }
 
     .container_1 {
         flex-wrap: wrap;
+<<<<<<< HEAD
         background-color:white;
+=======
+        background-color: #F2F2F2;
+>>>>>>> b488746950b8b641f1cfec8d68d7bed3078ce98f
         border-radius: 10px;
         margin-bottom: 20px;
         width: 100%;
@@ -387,17 +398,23 @@ nav a:hover {
         display: flex;
         flex-flow: column;
         flex-wrap: wrap;
+<<<<<<< HEAD
         background-color: white;
+=======
+>>>>>>> b488746950b8b641f1cfec8d68d7bed3078ce98f
         width: 100%;
     }
 
     .descr_1 {
         margin-left: 1em;
     }
+<<<<<<< HEAD
 
     .lien_des {
         width: auto;
     }
+=======
+>>>>>>> b488746950b8b641f1cfec8d68d7bed3078ce98f
     
     .descr_1, .descr_3 {
         display: flex;
@@ -457,6 +474,10 @@ nav a:hover {
     }
 
     .image_secondaire {
+<<<<<<< HEAD
+=======
+        position: relative;
+>>>>>>> b488746950b8b641f1cfec8d68d7bed3078ce98f
         width: 100%;
         height: 25%;
         border-top-left-radius: 1em;
@@ -464,11 +485,16 @@ nav a:hover {
     }
     
     .image_secondaire2 {
+<<<<<<< HEAD
+=======
+        position: relative;
+>>>>>>> b488746950b8b641f1cfec8d68d7bed3078ce98f
         width: 100%;
         height: 25%;
         border-top-left-radius: 1em;
         border-top-right-radius: 1em;
     }
+<<<<<<< HEAD
 
     .footer {
         margin-top: 3%;
@@ -504,3 +530,6 @@ nav a:hover {
         width: 100%;
     }
 }
+=======
+}
+>>>>>>> b488746950b8b641f1cfec8d68d7bed3078ce98f
