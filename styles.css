@@ -22,6 +22,7 @@ nav li {
     list-style-type: none;
     display: inline-flex;
     margin-right: 45px;
+    font-weight: bold;
 }
 
 a {
@@ -32,6 +33,7 @@ a {
 nav a:hover {
     text-decoration: overline;
     color: #0065FC;
+    font-weight: bold;
 }
 
 .bouton, ul {
@@ -44,8 +46,6 @@ nav a:hover {
     margin-left: 10px;
     margin-top: 20px;
 }
-
-
 
 .icon {
     background-color: #F2F2F2;
@@ -80,6 +80,16 @@ nav a:hover {
     display: flex;
     margin-top: 2em;
     flex-wrap: wrap;
+}
+
+.ensemble :hover {
+    color: #0065FC;
+    transition: color .3s .125s ease-out;
+}
+
+.container_principal a:hover {
+    color: grey;
+    transition: color .3s .125s ease-out;
 }
 
 .ensemble_filtres {
@@ -346,7 +356,7 @@ nav a:hover {
     margin-bottom: 20px;
 }
 
-@media all and (max-device-width: 767px) 
+@media only screen and (max-device-width: 767px) 
     {    
         header {
             display: flex;
