@@ -36,6 +36,10 @@ nav a:hover {
     font-weight: bold;
 }
 
+.visible {
+    display: none;
+}
+
 .bouton, ul {
     list-style-type: none;
     display: flex;
@@ -375,6 +379,10 @@ nav a:hover {
             margin-top: 2em;
         }
 
+        .visible {
+            display: inline-block;
+        }
+
         .submit {
             display: none;
         }
@@ -407,8 +415,8 @@ nav a:hover {
             background-color:white;
             border-radius: 10px;
             margin-bottom: 20px;
-            margin-left: 0px;
-            margin-right: 0px;
+            margin-left: 5px;
+            margin-right: 5px;
             width: 98%;
         }
         
@@ -417,6 +425,8 @@ nav a:hover {
             flex-wrap: wrap;
             background-color: #F2F2F2;
             border-radius: 10px;
+            margin-left: 5px;
+            margin-right: 5px;
             width: 98%;
             height: 550px;
         }
@@ -482,6 +492,8 @@ nav a:hover {
             flex-flow: column;
             flex-wrap: wrap;
             background-color: white;
+            margin-left: 5px;
+            margin-right: 5px;
             width: 98%;
         }
 
