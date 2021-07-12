@@ -25,6 +25,10 @@ nav li {
     font-weight: bold;
 }
 
+nav li:nth-child(3) {
+    margin-right: 0;
+}
+
 a {
     text-decoration: none;
     color: #a5a5a5;
@@ -173,6 +177,7 @@ nav a:hover {
     border-top-right-radius: 20px;
     width: 100%;
     height: 125px;
+    object-fit: cover;
 }
 
 .image2 {
@@ -181,6 +186,7 @@ nav a:hover {
     width: 150px;
     height: 150px;
     margin-right: 10px;
+    object-fit: cover;
 }
 
 .espace {
@@ -314,6 +320,7 @@ nav a:hover {
     height: 450px;
     border-top-left-radius: 1em;
     border-top-right-radius: 1em;
+    object-fit: cover;
 }
 
 .image_secondaire2 {
@@ -322,6 +329,7 @@ nav a:hover {
     height: 170px;
     border-top-left-radius: 1em;
     border-top-right-radius: 1em;
+    object-fit: cover;
 }
 
 #activités {
@@ -360,6 +368,30 @@ nav a:hover {
     margin-bottom: 20px;
 }
 
+.footer p {
+    color: black
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0 2rem 0;
+}
+
+.Icone {
+    color: #0065FC;
+    height: 2rem;
+    width: 2rem;
+    min-height: 2rem;
+    min-width: 2rem;
+    border: solid 1px #d9d9d9;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.5rem;
+}
+
 @media only screen and (max-device-width: 767px) 
     {   
         
@@ -372,11 +404,6 @@ nav a:hover {
         nav li {
             list-style-type: none;
             display: flex;
-            flex-wrap: wrap;
-        }
-
-        .inscrire {
-            float: right;
         }
 
         .ensemble {
@@ -398,11 +425,11 @@ nav a:hover {
 
         .ensemble_filtres {
             display: flex;
-            align-items: center;
+            flex-wrap: wrap;
             border: 2px solid #d9d9d9;
             border-radius: 2em;
             margin-bottom: 15px;
-            font-weight: bold;
+            font-weight: bold;   
         }
 
         .container_principal {
@@ -472,6 +499,7 @@ nav a:hover {
             border-bottom-left-radius: 20px;
             width: 150px;
             height: 130px;
+            object-fit: cover;
         }
 
         .espace {
@@ -561,6 +589,7 @@ nav a:hover {
             height: 150px;
             border-top-left-radius: 1em;
             border-top-right-radius: 1em;
+            object-fit: cover;
         }
         
         .image_secondaire2 {
@@ -569,6 +598,250 @@ nav a:hover {
             height: 150px;
             border-top-left-radius: 1em;
             border-top-right-radius: 1em;
+            object-fit: cover;
+        }
+
+        .footer {
+            margin-top: 10px;
+            background-color:#F2F2F2;
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+        
+        .a_propos {
+            display: flex;
+            flex-wrap: wrap;
+            width: 97%;
+            margin-left: 5%;
+        }
+        
+        .hebergement {
+            display: flex;
+            flex-wrap: wrap;
+            width: 97%;
+            margin-left: 5%;
+        }
+        
+        .assistance {
+            display: flex;
+            flex-wrap: wrap;
+            width: 97%;
+            margin-left: 5%;
+        }
+
+        .footer h3, p {
+            flex-wrap: wrap;
+            width: 97%;
+        }
+    }
+
+@media only screen and (min-width: 768px) and (max-width: 1150px)  
+    {
+        header {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        
+        nav li {
+            list-style-type: none;
+            display: flex;
+        }
+
+        .ensemble {
+            display: flex;
+            margin-top: 2em;
+        }
+
+        .visible {
+            display: inline-block;
+        }
+
+        .submit {
+            display: none;
+        }
+
+        .ensemble h2 {
+            width: 98%;
+        }
+
+        .ensemble_filtres {
+            display: flex;
+            flex-wrap: wrap;
+            border: 2px solid #d9d9d9;
+            border-radius: 2em;
+            margin-bottom: 15px;
+            font-weight: bold;   
+        }
+
+        .container_principal {
+            display: flex;
+            flex-flow: column-reverse;
+            flex-wrap: wrap;
+            width: 98%;
+            margin-top: 20px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        .container_1 {
+            display: flex;
+            flex-wrap: wrap;
+            background-color:white;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            margin-left: 0px;
+            width: 100%;
+        }
+        
+        .container_2 {
+            display: flex;
+            flex-wrap: wrap;
+            background-color: #F2F2F2;
+            border-radius: 10px;
+            width: 98%;
+            height: 550px;
+        }
+        
+        .card {
+            display: flex;
+            flex-wrap: wrap;
+            width: 320px;
+            border: 5px solid white;
+            background-color: white;
+            border-radius: 20px;
+            margin-top: 5px;
+            margin-bottom: 6px;
+            line-height: 1px;
+            box-shadow: 0px 0px 5px #0000002e;
+        }
+        
+        .card2 {
+            display: flex;
+            flex-wrap: wrap;
+            width: 84%;
+            height: 130px;
+            border: 5px solid white;
+            background-color: white;
+            border-radius: 20px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            margin-left: 10px;
+            margin-right: 10px;
+            box-shadow: 0px 0px 5px #0000002e;
+        }
+
+        .afficher {
+            margin-top: 15px;
+            margin-left: 15px;
+        }
+
+        .image2 {
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+            width: 150px;
+            height: 130px;
+            object-fit: cover;
+        }
+
+        .espace {
+            display: inline-block;
+            margin: 17px;
+        }
+        
+        .espace1 {
+            display: inline-block;
+            margin: 22px;
+        }
+        
+        .recherche {
+            width: 98%;
+        }
+
+        #activités {
+            display: flex;
+            flex-flow: column;
+            flex-wrap: wrap;
+            background-color: white;
+            margin-left: 5px;
+            margin-right: 5px;
+            width: 100%;
+        }
+
+        .lien_des {
+            width: auto;
+        }
+        
+        .descr_1, .descr_3 {
+            display: flex;
+            flex-wrap: wrap;
+            width: 97%;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            margin-left: 5px;
+            margin-right: 5px;
+            border: 0px;
+            border-radius: 1em;
+            box-shadow: 0px 0px 20px #0000002e;
+            background-color: white;
+        }
+        
+        .descr_2, .descr_4 {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            margin-left: 5px;
+            margin-right: 5px;
+            width: 98%;
+            background-color: white;
+        }
+        
+        .sous_descr1 {
+            display: flex;
+            flex-wrap: wrap;
+            width: 98%;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            margin-left: 5px;
+            margin-right: 5px;
+            border: 0px;
+            border-radius: 1em;
+            box-shadow: 0px 0px 20px #0000002e;
+            background-color: white;
+        }
+        
+        .sous_descr2 {
+            display: flex;
+            flex-wrap: wrap;
+            width: 98%;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            margin-left: 5px;
+            margin-right: 5px;
+            border: 0px;
+            border-radius: 1em;
+            box-shadow: 0px 0px 20px #0000002e;
+            background-color: white;
+        }
+
+        .image_secondaire {
+            position: relative;
+            width: 100%;
+            height: 150px;
+            border-top-left-radius: 1em;
+            border-top-right-radius: 1em;
+            object-fit: cover;
+        }
+        
+        .image_secondaire2 {
+            position: relative;
+            width: 100%;
+            height: 150px;
+            border-top-left-radius: 1em;
+            border-top-right-radius: 1em;
+            object-fit: cover;
         }
 
         .footer {
