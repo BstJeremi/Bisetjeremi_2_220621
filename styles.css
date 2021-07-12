@@ -878,4 +878,9 @@ nav a:hover {
             flex-wrap: wrap;
             width: 97%;
         }
+
+        #logo {
+            display: flex;
+            flex-direction: column;
+        }
     }
