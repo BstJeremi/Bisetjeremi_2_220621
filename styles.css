@@ -856,31 +856,26 @@ nav a:hover {
         .a_propos {
             display: flex;
             flex-wrap: wrap;
-            width: 97%;
+            width: 100%;
             margin-left: 5%;
         }
         
         .hebergement {
             display: flex;
             flex-wrap: wrap;
-            width: 97%;
+            width: 100%;
             margin-left: 5%;
         }
         
         .assistance {
             display: flex;
             flex-wrap: wrap;
-            width: 97%;
+            width: 100%;
             margin-left: 5%;
         }
 
         .footer h3, p {
             flex-wrap: wrap;
-            width: 97%;
-        }
-
-        #logo {
-            display: flex;
-            flex-direction: column;
+            width: 100%;
         }
     }
