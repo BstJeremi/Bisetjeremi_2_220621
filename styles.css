@@ -45,7 +45,6 @@ header {
     color: #0065FC;
 }
 
-
 footer a {
     text-decoration: none;
     color: #a5a5a5;
@@ -570,11 +569,11 @@ a {
         .descr_1, .descr_3 {
             display: flex;
             flex-wrap: wrap;
-            width: 100%;
+            width: 99%;
             margin-top: 5px;
             margin-bottom: 5px;
-            margin-left: auto;
-            margin-right: auto;
+            margin-left: 0.5rem;
+            margin-right: 0.5rem;
             border-radius: 1em;
             box-shadow: 0px 0px 20px #0000002e;
         }
@@ -584,15 +583,15 @@ a {
             flex-wrap: wrap;
             margin-top: 5px;
             margin-bottom: 5px;
-            margin-left: auto;
-            margin-right: auto;
-            width: 100%;
+            margin-left: 0.5rem;
+            margin-right: 0.5rem;
+            width: 99%;
         }
         
         .sous_descr1 {
             display: flex;
             flex-wrap: wrap;
-            width: 100%;
+            width: 99%;
             margin-top: 5px;
             margin-bottom: 5px;
             border-radius: 1em;
@@ -602,7 +601,7 @@ a {
         .sous_descr2 {
             display: flex;
             flex-wrap: wrap;
-            width: 100%;
+            width: 99%;
             margin-top: 5px;
             margin-bottom: 5px;
             border-radius: 1em;
@@ -666,45 +665,47 @@ a {
     {
         header {
             display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-            width: 99%;
+            align-items: center;
+            justify-content: space-between;
+            margin: auto;
+            width: 100%;
+        }
+        
+        .barre {
+            display: flex;
+            font-weight: bold;
+        }
+        
+        .barre nav {
+            display: flex;
+            align-items: center;
+        }
+        
+        .inscrire {
+            display: flex;
+            align-items: center;
+            padding: 2rem;
+            color: #0065FC;
+            text-decoration: none;
+            font-weight: bold;
         }
         
         .choix {
-            display: inline-flex;
-            margin-right: 45px;
-        }
-        
-        nav li:nth-child(3) {
-            margin-right: 0;
-        }
-        
-        .choix a {
             text-decoration: none;
             color: #a5a5a5;
-        }
-
-        body a {
-            text-decoration: none;
+            padding: 2rem;
         }
         
+        .choix:hover {
+            border-top: 3px solid #0065FC;
+            color: #0065FC;
+        }
+
         footer a {
             text-decoration: none;
             color: #a5a5a5;
         }
         
-        .inscrire a {
-            text-decoration: none;
-            color: #0065FC;
-            font-weight: bold;
-        }
-        
-        .choix a:hover {
-            text-decoration: overline;
-            color: #0065FC;
-        }
-
         a {
             text-decoration: none;
         }
@@ -720,10 +721,6 @@ a {
 
         .visible {
             display: inline-block;
-        }
-
-        .ensemble h2 {
-            width: 99%;
         }
 
         .ensemble_filtres {
@@ -820,7 +817,8 @@ a {
         #activités {
             display: flex;
             flex-flow: column wrap;
-            width: 99%;
+            background-color: white;
+            width: 100%;
         }
         
         .descr_1, .descr_3 {
@@ -829,6 +827,8 @@ a {
             width: 99%;
             margin-top: 5px;
             margin-bottom: 5px;
+            margin-left: 0.5rem;
+            margin-right: 0.5rem;
             border-radius: 1em;
             box-shadow: 0px 0px 20px #0000002e;
         }
@@ -838,8 +838,9 @@ a {
             flex-wrap: wrap;
             margin-top: 5px;
             margin-bottom: 5px;
+            margin-left: 0.5rem;
+            margin-right: 0.5rem;
             width: 99%;
-            box-shadow: 0px 0px 20px #0000002e;
         }
         
         .sous_descr1 {
@@ -864,7 +865,7 @@ a {
 
         .image_secondaire {
             position: relative;
-            width: 99%;
+            width: 100%;
             height: 150px;
             border-top-left-radius: 1em;
             border-top-right-radius: 1em;
@@ -873,7 +874,7 @@ a {
         
         .image_secondaire2 {
             position: relative;
-            width: 99%;
+            width: 100%;
             height: 150px;
             border-top-left-radius: 1em;
             border-top-right-radius: 1em;
