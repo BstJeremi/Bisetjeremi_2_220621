@@ -15,29 +15,35 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
 }
 
-nav li {
-    list-style-type: none;
+.choix {
     display: inline-flex;
     margin-right: 45px;
-    font-weight: bold;
 }
 
 nav li:nth-child(3) {
     margin-right: 0;
 }
 
-a {
+.choix a {
     text-decoration: none;
     color: #a5a5a5;
 }
 
-nav a:hover {
-    text-decoration: overline;
+a {
+    text-decoration: none;
+}
+
+.inscrire a {
+    text-decoration: none;
     color: #0065FC;
     font-weight: bold;
+}
+
+.choix a:hover {
+    text-decoration: overline;
+    color: #0065FC;
 }
 
 .visible {
@@ -395,16 +401,44 @@ nav a:hover {
 @media only screen and (max-width: 767px) 
     {   
         
-        header {
+        header nav {
             display: flex;
-            justify-content: space-around;
+            flex-direction: row-reverse;
             flex-wrap: wrap;
+            width: 100%;
+        }
+
+        header {
+            width: 100%;
         }
         
-        nav li {
-            list-style-type: none;
+        .choix {
             display: inline-flex;
+            margin-right: 45px;
+        }
+        
+        nav li:nth-child(3) {
+            margin-right: 0;
+        }
+        
+        .choix a {
+            text-decoration: none;
+            color: #a5a5a5;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        .inscrire a {
+            text-decoration: none;
+            color: #0065FC;
             font-weight: bold;
+        }
+        
+        .choix a:hover {
+            text-decoration: overline;
+            color: #0065FC;
         }
 
         .ensemble {
@@ -643,11 +677,36 @@ nav a:hover {
             display: flex;
             justify-content: space-around;
             flex-wrap: wrap;
+            width: 100%;
         }
         
-        nav li {
-            list-style-type: none;
+        .choix {
             display: inline-flex;
+            margin-right: 45px;
+        }
+        
+        nav li:nth-child(3) {
+            margin-right: 0;
+        }
+        
+        .choix a {
+            text-decoration: none;
+            color: #a5a5a5;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        .inscrire a {
+            text-decoration: none;
+            color: #0065FC;
+            font-weight: bold;
+        }
+        
+        .choix a:hover {
+            text-decoration: overline;
+            color: #0065FC;
         }
 
         .ensemble {
