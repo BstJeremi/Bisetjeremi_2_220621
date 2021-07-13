@@ -31,7 +31,7 @@ nav li:nth-child(3) {
     color: #a5a5a5;
 }
 
-a {
+footer a {
     text-decoration: none;
     color: #a5a5a5;
 }
@@ -45,6 +45,10 @@ a {
 .choix a:hover {
     text-decoration: overline;
     color: #0065FC;
+}
+
+a {
+    text-decoration: none;
 }
 
 .visible {
@@ -228,7 +232,7 @@ a {
 }
 
 #hebergements {
-    width: 100%;
+    width: 99%;
 }
 
 .lien {
@@ -243,7 +247,7 @@ a {
 .titre {
     display: flex;
     align-items: center;
-    width: 100%;
+    width: 99%;
     margin-left: 20px;
 }
 
@@ -277,11 +281,11 @@ a {
 }
 
 .titre2 {
-    width: 100%;
+    width: 99%;
 }
 
 .secondaire {
-    width: 98%;
+    width: 100%;
 }
 
 .descr_1 {
@@ -401,16 +405,19 @@ a {
 
 @media only screen and (max-width: 767px) 
     {   
-        
+        body {
+            width: 100%;
+        }
+
         header nav {
             display: flex;
             flex-direction: row-reverse;
             flex-wrap: wrap;
-            width: 100%;
+            width: 99%;
         }
 
         header {
-            width: 100%;
+            width: 99%;
         }
         
         .choix {
@@ -427,7 +434,7 @@ a {
             color: #a5a5a5;
         }
         
-        a {
+        footer a {
             text-decoration: none;
             color: #a5a5a5;
         }
@@ -441,6 +448,10 @@ a {
         .choix a:hover {
             text-decoration: overline;
             color: #0065FC;
+        }
+
+        a {
+            text-decoration: none;
         }
 
         .ensemble {
@@ -457,7 +468,7 @@ a {
         }
 
         .ensemble h2 {
-            width: 98%;
+            width: 99%;
         }
 
         .ensemble_filtres {
@@ -473,7 +484,7 @@ a {
             display: flex;
             flex-flow: column-reverse;
             flex-wrap: wrap;
-            width: 100%;
+            width: 99%;
             margin-top: 20px;
         }
 
@@ -483,7 +494,7 @@ a {
             background-color:white;
             border-radius: 10px;
             margin-bottom: 20px;
-            width: 100%;
+            width: 99%;
             margin: auto;
         }
         
@@ -492,14 +503,14 @@ a {
             flex-wrap: wrap;
             background-color: #F2F2F2;
             border-radius: 10px;
-            width: 100%;
+            width: 99%;
             height: 550px;
         }
         
         .card {
             display: flex;
             flex-wrap: wrap;
-            width: 100%;
+            width: 99%;
             border: 5px solid white;
             background-color: white;
             border-radius: 20px;
@@ -514,7 +525,7 @@ a {
         .card2 {
             display: flex;
             flex-wrap: wrap;
-            width: 100%;
+            width: 99%;
             height: 130px;
             border: 5px solid white;
             background-color: white;
@@ -550,7 +561,7 @@ a {
         }
         
         .recherche {
-            width: 100%;
+            width: 99%;
         }
 
         #activités {
@@ -558,13 +569,11 @@ a {
             flex-flow: column;
             flex-wrap: wrap;
             background-color: white;
-            margin-left: 5px;
-            margin-right: 5px;
             width: 100%;
         }
 
         .lien_des {
-            width: auto;
+            width: 100%;
         }
         
         .descr_1, .descr_3 {
@@ -573,8 +582,6 @@ a {
             width: 100%;
             margin-top: 5px;
             margin-bottom: 5px;
-            margin-left: 5px;
-            margin-right: 5px;
             border: 0px;
             border-radius: 1em;
             box-shadow: 0px 0px 20px #0000002e;
@@ -586,8 +593,6 @@ a {
             flex-wrap: wrap;
             margin-top: 5px;
             margin-bottom: 5px;
-            margin-left: 5px;
-            margin-right: 5px;
             width: 100%;
             background-color: white;
         }
@@ -598,8 +603,6 @@ a {
             width: 100%;
             margin-top: 5px;
             margin-bottom: 5px;
-            margin-left: 5px;
-            margin-right: 5px;
             border: 0px;
             border-radius: 1em;
             box-shadow: 0px 0px 20px #0000002e;
@@ -612,8 +615,6 @@ a {
             width: 100%;
             margin-top: 5px;
             margin-bottom: 5px;
-            margin-left: 5px;
-            margin-right: 5px;
             border: 0px;
             border-radius: 1em;
             box-shadow: 0px 0px 20px #0000002e;
@@ -643,33 +644,33 @@ a {
             background-color:#F2F2F2;
             display: flex;
             flex-wrap: wrap;
-            width: 100%;
+            width: 99%;
         }
         
         .a_propos {
             display: flex;
             flex-wrap: wrap;
-            width: 97%;
+            width: 99%;
             margin-left: 5%;
         }
         
         .hebergement {
             display: flex;
             flex-wrap: wrap;
-            width: 97%;
+            width: 99%;
             margin-left: 5%;
         }
         
         .assistance {
             display: flex;
             flex-wrap: wrap;
-            width: 97%;
+            width: 99%;
             margin-left: 5%;
         }
 
         .footer h3, p {
             flex-wrap: wrap;
-            width: 97%;
+            width: 99%;
         }
     }
 
@@ -679,7 +680,7 @@ a {
             display: flex;
             justify-content: space-around;
             flex-wrap: wrap;
-            width: 100%;
+            width: 99%;
         }
         
         .choix {
@@ -695,8 +696,12 @@ a {
             text-decoration: none;
             color: #a5a5a5;
         }
+
+        body a {
+            text-decoration: none;
+        }
         
-        a {
+        footer a {
             text-decoration: none;
             color: #a5a5a5;
         }
@@ -710,6 +715,10 @@ a {
         .choix a:hover {
             text-decoration: overline;
             color: #0065FC;
+        }
+
+        a {
+            text-decoration: none;
         }
 
         .ensemble {
@@ -726,7 +735,7 @@ a {
         }
 
         .ensemble h2 {
-            width: 100%;
+            width: 99%;
         }
 
         .ensemble_filtres {
@@ -742,7 +751,7 @@ a {
             display: flex;
             flex-flow: column-reverse;
             flex-wrap: wrap;
-            width: 100%;
+            width: 99%;
             margin-top: 20px;
             margin-right: auto;
             margin-left: auto;
@@ -755,7 +764,7 @@ a {
             border-radius: 10px;
             margin-bottom: 20px;
             margin-left: 0px;
-            width: 100%;
+            width: 99%;
         }
         
         .container_2 {
@@ -763,14 +772,14 @@ a {
             flex-wrap: wrap;
             background-color: #F2F2F2;
             border-radius: 10px;
-            width: 100%;
+            width: 99%;
             height: 550px;
         }
         
         .card {
             display: flex;
             flex-wrap: wrap;
-            width: 100%;
+            width: 99%;
             border: 5px solid white;
             background-color: white;
             border-radius: 20px;
@@ -783,7 +792,7 @@ a {
         .card2 {
             display: flex;
             flex-wrap: wrap;
-            width: 100%;
+            width: 99%;
             height: 130px;
             border: 5px solid white;
             background-color: white;
@@ -819,7 +828,7 @@ a {
         }
         
         .recherche {
-            width: 100%;
+            width: 99%;
         }
 
         #activités {
@@ -829,17 +838,17 @@ a {
             background-color: white;
             margin-left: 5px;
             margin-right: 5px;
-            width: 100%;
+            width: 99%;
         }
 
         .lien_des {
-            width: 100%;
+            width: 99%;
         }
         
         .descr_1, .descr_3 {
             display: flex;
             flex-wrap: wrap;
-            width: 100%;
+            width: 99%;
             margin-top: 5px;
             margin-bottom: 5px;
             border: 0px;
@@ -853,14 +862,14 @@ a {
             flex-wrap: wrap;
             margin-top: 5px;
             margin-bottom: 5px;
-            width: 100%;
+            width: 99%;
             background-color: white;
         }
         
         .sous_descr1 {
             display: flex;
             flex-wrap: wrap;
-            width: 100%;
+            width: 99%;
             margin-top: 5px;
             margin-bottom: 5px;
             margin-left: 5px;
@@ -874,7 +883,7 @@ a {
         .sous_descr2 {
             display: flex;
             flex-wrap: wrap;
-            width: 100%;
+            width: 99%;
             margin-top: 5px;
             margin-bottom: 5px;
             margin-left: 5px;
@@ -887,7 +896,7 @@ a {
 
         .image_secondaire {
             position: relative;
-            width: 100%;
+            width: 99%;
             height: 150px;
             border-top-left-radius: 1em;
             border-top-right-radius: 1em;
@@ -896,7 +905,7 @@ a {
         
         .image_secondaire2 {
             position: relative;
-            width: 100%;
+            width: 99%;
             height: 150px;
             border-top-left-radius: 1em;
             border-top-right-radius: 1em;
@@ -908,32 +917,32 @@ a {
             background-color:#F2F2F2;
             display: flex;
             flex-wrap: wrap;
-            width: 100%;
+            width: 99%;
         }
         
         .a_propos {
             display: flex;
             flex-wrap: wrap;
-            width: 100%;
+            width: 99%;
             margin-left: 5%;
         }
         
         .hebergement {
             display: flex;
             flex-wrap: wrap;
-            width: 100%;
+            width: 99%;
             margin-left: 5%;
         }
         
         .assistance {
             display: flex;
             flex-wrap: wrap;
-            width: 100%;
+            width: 99%;
             margin-left: 5%;
         }
 
         .footer h3, p {
             flex-wrap: wrap;
-            width: 100%;
+            width: 99%;
         }
     }
