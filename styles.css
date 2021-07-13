@@ -816,15 +816,13 @@ a {
 
         #activités {
             display: flex;
-            flex-flow: column wrap;
             background-color: white;
             width: 100%;
         }
         
         .descr_1, .descr_3 {
             display: flex;
-            flex-wrap: wrap;
-            width: 99%;
+            width: 23%;
             margin-top: 5px;
             margin-bottom: 5px;
             margin-left: 0.5rem;
@@ -835,12 +833,11 @@ a {
         
         .descr_2, .descr_4 {
             display: flex;
-            flex-wrap: wrap;
             margin-top: 5px;
             margin-bottom: 5px;
             margin-left: 0.5rem;
             margin-right: 0.5rem;
-            width: 99%;
+            width: 23%;
         }
         
         .sous_descr1 {
@@ -866,7 +863,7 @@ a {
         .image_secondaire {
             position: relative;
             width: 100%;
-            height: 150px;
+            height: 360px;
             border-top-left-radius: 1em;
             border-top-right-radius: 1em;
             object-fit: cover;
