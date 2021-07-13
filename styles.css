@@ -7,44 +7,48 @@ body {
     width: 100%;
 }
 
-#logo {
-    display: flex;
-    flex-direction: column;
-}
-
 header {
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    margin: auto;
+    width: 100%;
+}
+
+.barre {
+    display: flex;
+    font-weight: bold;
+}
+
+.barre nav {
+    display: flex;
+    align-items: center;
+}
+
+.inscrire {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    color: #0065FC;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .choix {
-    display: inline-flex;
-    margin-right: 45px;
-}
-
-nav li:nth-child(3) {
-    margin-right: 0;
-}
-
-.choix a {
     text-decoration: none;
     color: #a5a5a5;
+    padding: 2rem;
 }
+
+.choix:hover {
+    border-top: 3px solid #0065FC;
+    color: #0065FC;
+}
+
 
 footer a {
     text-decoration: none;
     color: #a5a5a5;
-}
-
-.inscrire a {
-    text-decoration: none;
-    color: #0065FC;
-    font-weight: bold;
-}
-
-.choix a:hover {
-    text-decoration: overline;
-    color: #0065FC;
 }
 
 a {
@@ -247,7 +251,8 @@ a {
 .titre {
     display: flex;
     align-items: center;
-    width: 99%;
+    justify-content: space-between;
+    width: 80%;
     margin-left: 20px;
 }
 
