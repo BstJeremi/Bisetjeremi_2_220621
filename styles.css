@@ -33,6 +33,7 @@ nav li:nth-child(3) {
 
 a {
     text-decoration: none;
+    color: #a5a5a5;
 }
 
 .inscrire a {
@@ -421,13 +422,14 @@ a {
             margin-right: 0;
         }
         
-        .choix a {
+        .choix {
             text-decoration: none;
             color: #a5a5a5;
         }
         
         a {
             text-decoration: none;
+            color: #a5a5a5;
         }
         
         .inscrire a {
@@ -696,6 +698,7 @@ a {
         
         a {
             text-decoration: none;
+            color: #a5a5a5;
         }
         
         .inscrire a {
