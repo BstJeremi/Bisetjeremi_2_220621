@@ -559,20 +559,11 @@ a {
             display: inline-block;
             margin: 22px;
         }
-        
-        .recherche {
-            width: 99%;
-        }
 
         #activités {
             display: flex;
-            flex-flow: column;
-            flex-wrap: wrap;
+            flex-flow: column wrap;
             background-color: white;
-            width: 100%;
-        }
-
-        .lien_des {
             width: 100%;
         }
         
@@ -582,10 +573,10 @@ a {
             width: 100%;
             margin-top: 5px;
             margin-bottom: 5px;
-            border: 0px;
+            margin-left: auto;
+            margin-right: auto;
             border-radius: 1em;
             box-shadow: 0px 0px 20px #0000002e;
-            background-color: white;
         }
         
         .descr_2, .descr_4 {
@@ -593,8 +584,9 @@ a {
             flex-wrap: wrap;
             margin-top: 5px;
             margin-bottom: 5px;
+            margin-left: auto;
+            margin-right: auto;
             width: 100%;
-            background-color: white;
         }
         
         .sous_descr1 {
@@ -603,10 +595,8 @@ a {
             width: 100%;
             margin-top: 5px;
             margin-bottom: 5px;
-            border: 0px;
             border-radius: 1em;
             box-shadow: 0px 0px 20px #0000002e;
-            background-color: white;
         }
         
         .sous_descr2 {
@@ -615,10 +605,8 @@ a {
             width: 100%;
             margin-top: 5px;
             margin-bottom: 5px;
-            border: 0px;
             border-radius: 1em;
             box-shadow: 0px 0px 20px #0000002e;
-            background-color: white;
         }
 
         .image_secondaire {
@@ -828,22 +816,10 @@ a {
             display: inline-block;
             margin: 22px;
         }
-        
-        .recherche {
-            width: 99%;
-        }
 
         #activités {
             display: flex;
-            flex-flow: column;
-            flex-wrap: wrap;
-            background-color: white;
-            margin-left: 5px;
-            margin-right: 5px;
-            width: 99%;
-        }
-
-        .lien_des {
+            flex-flow: column wrap;
             width: 99%;
         }
         
@@ -853,10 +829,8 @@ a {
             width: 99%;
             margin-top: 5px;
             margin-bottom: 5px;
-            border: 0px;
             border-radius: 1em;
             box-shadow: 0px 0px 20px #0000002e;
-            background-color: white;
         }
         
         .descr_2, .descr_4 {
@@ -865,7 +839,7 @@ a {
             margin-top: 5px;
             margin-bottom: 5px;
             width: 99%;
-            background-color: white;
+            box-shadow: 0px 0px 20px #0000002e;
         }
         
         .sous_descr1 {
@@ -874,12 +848,8 @@ a {
             width: 99%;
             margin-top: 5px;
             margin-bottom: 5px;
-            margin-left: 5px;
-            margin-right: 5px;
-            border: 0px;
             border-radius: 1em;
             box-shadow: 0px 0px 20px #0000002e;
-            background-color: white;
         }
         
         .sous_descr2 {
@@ -888,12 +858,8 @@ a {
             width: 99%;
             margin-top: 5px;
             margin-bottom: 5px;
-            margin-left: 5px;
-            margin-right: 5px;
-            border: 0px;
             border-radius: 1em;
             box-shadow: 0px 0px 20px #0000002e;
-            background-color: white;
         }
 
         .image_secondaire {
