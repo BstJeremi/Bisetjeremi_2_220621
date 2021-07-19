@@ -3,10 +3,6 @@ body {
     font-size: 0.9em;
 }
 
-.bloc_page {
-    width: 100%;
-}
-
 header {
     display: flex;
     align-items: center;
@@ -404,15 +400,12 @@ a {
 
 @media only screen and (max-width: 767px) 
     {   
-        body {
-            width: 99%;
-        }
 
         header {
             display: flex;
+            flex-direction: column;
             align-items: center;
             justify-content: space-between;
-            width: 99%;
         }
         
         .barre {
@@ -428,16 +421,15 @@ a {
         }
         
         .inscrire {
-            display: flex;
-            align-items: center;
-            color: #0065FC;
+            position: absolute;
+            top: 5px;
+            right: 10px;
             text-decoration: none;
             font-weight: bold;
         }
         
         .choix:hover {
-            border-top: 2px solid #0065FC;
-            color: #0065FC;
+            border-bottom: 2px solid #0065FC;
         }
         
         footer a {
@@ -447,11 +439,6 @@ a {
         
         a {
             text-decoration: none;
-        }
-
-        .ensemble {
-            display: flex;
-            margin-top: 2em;
         }
 
         .visible {
