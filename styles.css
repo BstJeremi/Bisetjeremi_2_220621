@@ -34,6 +34,7 @@ header {
     text-decoration: none;
     color: #a5a5a5;
     padding: 2rem;
+    border-top: 3px solid white;
 }
 
 .choix:hover {
@@ -95,16 +96,6 @@ a {
     flex-wrap: wrap;
 }
 
-.ensemble :hover {
-    color: #0065FC;
-    transition: color .3s .125s ease-out;
-}
-
-.container_principal a:hover {
-    color: grey;
-    transition: color .3s .125s ease-out;
-}
-
 .ensemble_filtres {
     display: flex;
     align-items: center;
@@ -114,6 +105,12 @@ a {
     margin-bottom: 1em;
     cursor: pointer;
     font-weight: bold;
+}
+
+.ensemble_filtres:hover {
+    -webkit-transform:scale(1.05); 
+    -moz-transform:scale(1.05);
+    transform:scale(1.05);
 }
 
 .filtres {
@@ -175,6 +172,18 @@ a {
     margin-right: 25px;
     line-height: 1px;
     box-shadow: 0px 0px 5px #0000002e;
+}
+
+.card:hover {
+    -webkit-transform:scale(1.05); 
+    -moz-transform:scale(1.05);
+    transform:scale(1.05);
+}
+
+.card2:hover {
+    -webkit-transform:scale(1.05); 
+    -moz-transform:scale(1.05);
+    transform:scale(1.05);
 }
 
 .image {
@@ -296,6 +305,12 @@ a {
     background-color: white;
 }
 
+.descr_1:hover, .descr_3:hover {
+    -webkit-transform:scale(1.05); 
+    -moz-transform:scale(1.05);
+    transform:scale(1.05);
+}
+
 .descr_2, .descr_4 {
     display: flex;
     flex-wrap: wrap;
@@ -318,6 +333,12 @@ a {
     border-radius: 1em;
     box-shadow: 0px 0px 20px #0000002e;
     background-color: white;
+}
+
+.sous_descr1:hover, .sous_descr2:hover {
+    -webkit-transform:scale(1.05); 
+    -moz-transform:scale(1.05);
+    transform:scale(1.05);
 }
 
 .image_secondaire {
@@ -398,493 +419,427 @@ a {
     margin-right: 0.5rem;
 }
 
-@media only screen and (max-width: 767px) 
-    {   
+@media only screen and (max-width: 767px) {   
 
-        header {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: space-between;
-        }
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
         
-        .barre {
-            display: flex;
-            font-weight: bold;
-        }
+    .barre {
+        display: flex;
+        font-weight: bold;
+    }
         
-        .barre nav {
-            display: flex;
-            align-items: center;
-            text-decoration: none;
-            color: #a5a5a5;
-        }
+    .barre nav {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: #a5a5a5;
+    }
         
-        .inscrire {
-            position: absolute;
-            top: 5px;
-            right: 10px;
-            text-decoration: none;
-            font-weight: bold;
-        }
+    .inscrire {
+        position: absolute;
+        top: 5px;
+        right: 10px;
+        text-decoration: none;
+        font-weight: bold;
+    }
         
-        .choix:hover {
-            border-bottom: 2px solid #0065FC;
-        }
+    .choix:hover {
+        border-bottom: 2px solid #0065FC;
+    }
         
-        footer a {
-            text-decoration: none;
-            color: #a5a5a5;
-        }
-        
-        a {
-            text-decoration: none;
-        }
-
-        .visible {
-            display: inline-block;
-        }
-
-        .submit {
-            display: none;
-        }
-
-        .ensemble h2 {
-            width: 99%;
-        }
-
-        .ensemble_filtres {
-            display: flex;
-            flex-wrap: wrap;
-            border: 2px solid #d9d9d9;
-            border-radius: 2em;
-            margin-bottom: 15px;
-            font-weight: bold;   
-        }
-
-        .container_principal {
-            display: flex;
-            flex-flow: column-reverse;
-            flex-wrap: wrap;
-            width: 99%;
-            margin-top: 20px;
-        }
-
-        .container_1 {
-            display: flex;
-            flex-wrap: wrap;
-            background-color:white;
-            border-radius: 10px;
-            margin-bottom: 20px;
-            width: 99%;
-        }
-        
-        .container_2 {
-            display: flex;
-            flex-wrap: wrap;
-            background-color: #F2F2F2;
-            border-radius: 10px;
-            width: 99%;
-            height: 550px;
-        }
-        
-        .card {
-            display: flex;
-            flex-wrap: wrap;
-            width: 99%;
-            border: 5px solid white;
-            background-color: white;
-            border-radius: 20px;
-            margin-top: 5px;
-            margin-bottom: 6px;
-            margin-left: auto;
-            margin-right: auto;
-            line-height: 1px;
-            box-shadow: 0px 0px 5px #0000002e;
-        }
-        
-        .card2 {
-            display: flex;
-            flex-wrap: wrap;
-            width: 99%;
-            height: 130px;
-            border: 5px solid white;
-            background-color: white;
-            border-radius: 20px;
-            margin-top: 5px;
-            margin-bottom: 5px;
-            margin-left: 0.5rem;
-            margin-right: 0.5rem;
-            box-shadow: 0px 0px 5px #0000002e;
-        }
-
-        .afficher {
-            margin-top: 15px;
-            margin-left: 15px;
-        }
-
-        .image2 {
-            border-top-left-radius: 20px;
-            border-bottom-left-radius: 20px;
-            width: 150px;
-            height: 130px;
-            object-fit: cover;
-        }
-
-        .espace {
-            display: inline-block;
-            margin: 17px;
-        }
-        
-        .espace1 {
-            display: inline-block;
-            margin: 22px;
-        }
-
-        #activités {
-            display: flex;
-            flex-flow: column wrap;
-            margin-left: 0.5rem;
-            margin-right: 0.5rem;
-            width: 100%;
-        }
-        
-        .descr_1, .descr_3 {
-            display: flex;
-            flex-wrap: wrap;
-            width: 100%;
-            margin-top: 5px;
-            margin-bottom: 5px;
-            margin-left: 0.5rem;
-            margin-right: 0.5rem;
-            border-radius: 1em;
-            box-shadow: 0px 0px 20px #0000002e;
-        }
-        
-        .descr_2, .descr_4 {
-            display: flex;
-            flex-wrap: wrap;
-            margin-top: 5px;
-            margin-bottom: 5px;
-            margin-left: 0.5rem;
-            margin-right: 0.5rem;
-            width: 100%;
-        }
-        
-        .sous_descr1 {
-            display: flex;
-            flex-wrap: wrap;
-            width: 100%;
-            margin-top: 5px;
-            margin-bottom: 5px;
-            border-radius: 1em;
-            box-shadow: 0px 0px 20px #0000002e;
-        }
-        
-        .sous_descr2 {
-            display: flex;
-            flex-wrap: wrap;
-            width: 100%;
-            margin-top: 5px;
-            margin-bottom: 5px;
-            border-radius: 1em;
-            box-shadow: 0px 0px 20px #0000002e;
-        }
-
-        .image_secondaire {
-            position: relative;
-            width: 100%;
-            height: 150px;
-            border-top-left-radius: 1em;
-            border-top-right-radius: 1em;
-            object-fit: cover;
-        }
-        
-        .image_secondaire2 {
-            position: relative;
-            width: 100%;
-            height: 150px;
-            border-top-left-radius: 1em;
-            border-top-right-radius: 1em;
-            object-fit: cover;
-        }
-
-        .footer {
-            margin-top: 10px;
-            background-color:#F2F2F2;
-            display: flex;
-            flex-wrap: wrap;
-            width: 100%;
-        }
-        
-        .a_propos {
-            display: flex;
-            flex-wrap: wrap;
-            width: 99%;
-            margin-left: 5%;
-        }
-        
-        .hebergement {
-            display: flex;
-            flex-wrap: wrap;
-            width: 99%;
-            margin-left: 5%;
-        }
-        
-        .assistance {
-            display: flex;
-            flex-wrap: wrap;
-            width: 99%;
-            margin-left: 5%;
-        }
-
-        .footer h3, p {
-            flex-wrap: wrap;
-            width: 99%;
-        }
+    a {
+        text-decoration: none;
     }
 
-@media only screen and (min-width: 768px) and (max-width: 1317px)  
-    {
-        header {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            margin: auto;
-            width: 100%;
-        }
-        
-        .barre {
-            display: flex;
-            font-weight: bold;
-        }
-        
-        .barre nav {
-            display: flex;
-            align-items: center;
-        }
-        
-        .inscrire {
-            display: flex;
-            align-items: center;
-            padding: 2rem;
-            color: #0065FC;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        
-        .choix {
-            text-decoration: none;
-            color: #a5a5a5;
-            padding: 2rem;
-        }
-        
-        .choix:hover {
-            border-top: 3px solid #0065FC;
-            color: #0065FC;
-        }
-
-        footer a {
-            text-decoration: none;
-            color: #a5a5a5;
-        }
-        
-        a {
-            text-decoration: none;
-        }
-
-        .ensemble {
-            display: flex;
-            margin-top: 2em;
-        }
-
-        .submit {
-            display: none;
-        }
-
-        .visible {
-            display: inline-block;
-        }
-
-        .ensemble_filtres {
-            display: flex;
-            flex-wrap: wrap;
-            border: 2px solid #d9d9d9;
-            border-radius: 2em;
-            margin-bottom: 15px;
-            font-weight: bold;   
-        }
-
-        .container_principal {
-            display: flex;
-            flex-flow: column-reverse;
-            flex-wrap: wrap;
-            width: 99%;
-            margin-top: 20px;
-            margin-right: auto;
-            margin-left: auto;
-        }
-
-        .container_1 {
-            display: flex;
-            flex-wrap: wrap;
-            background-color:white;
-            border-radius: 10px;
-            margin-bottom: 20px;
-            width: 99%;
-        }
-        
-        .container_2 {
-            display: flex;
-            flex-wrap: wrap;
-            background-color: #F2F2F2;
-            border-radius: 10px;
-            width: 99%;
-            height: auto;
-            padding-bottom: 1rem;
-        }
-        
-        .card {
-            display: flex;
-            flex-wrap: wrap;
-            width: 30%;
-            border: 5px solid white;
-            background-color: white;
-            border-radius: 20px;
-            margin-top: 5px;
-            margin-bottom: 6px;
-            margin-left: auto;
-            margin-right: auto;
-            line-height: 1px;
-            box-shadow: 0px 0px 5px #0000002e;
-        }
-        
-        .card2 {
-            display: flex;
-            flex-wrap: wrap;
-            width: 30%;
-            height: 130px;
-            border: 5px solid white;
-            background-color: white;
-            border-radius: 20px;
-            margin-top: 5px;
-            margin-bottom: 5px;
-            margin-right: 0.5rem;
-            margin-left: 0.5rem;
-            box-shadow: 0px 0px 5px #0000002e;
-        }
-
-        .afficher {
-            margin-top: 15px;
-            margin-left: 15px;
-        }
-
-        .image2 {
-            border-top-left-radius: 20px;
-            border-bottom-left-radius: 20px;
-            width: 120px;
-            height: 130px;
-            object-fit: cover;
-        }
-
-        .espace {
-            display: inline-block;
-            margin: 17px;
-        }
-        
-        .espace1 {
-            display: inline-block;
-            margin: 22px;
-        }
-
-        #activités {
-            display: flex;
-            background-color: white;
-            width: 100%;
-        }
-        
-        .descr_1, .descr_3 {
-            display: flex;
-            width: 23%;
-            margin-top: 5px;
-            margin-bottom: 5px;
-            margin-left: 0.5rem;
-            margin-right: 0.5rem;
-            border-radius: 1em;
-            box-shadow: 0px 0px 20px #0000002e;
-        }
-        
-        .descr_2, .descr_4 {
-            display: flex;
-            margin-top: 5px;
-            margin-bottom: 5px;
-            margin-left: 0.5rem;
-            margin-right: 0.5rem;
-            width: 23%;
-        }
-        
-        .sous_descr1 {
-            display: flex;
-            flex-wrap: wrap;
-            width: 99%;
-            margin-top: 5px;
-            margin-bottom: 5px;
-            border-radius: 1em;
-            box-shadow: 0px 0px 20px #0000002e;
-        }
-        
-        .sous_descr2 {
-            display: flex;
-            flex-wrap: wrap;
-            width: 99%;
-            margin-top: 5px;
-            margin-bottom: 5px;
-            border-radius: 1em;
-            box-shadow: 0px 0px 20px #0000002e;
-        }
-
-        .image_secondaire {
-            position: relative;
-            width: 100%;
-            height: 360px;
-            border-top-left-radius: 1em;
-            border-top-right-radius: 1em;
-            object-fit: cover;
-        }
-        
-        .image_secondaire2 {
-            position: relative;
-            width: 100%;
-            height: 150px;
-            border-top-left-radius: 1em;
-            border-top-right-radius: 1em;
-            object-fit: cover;
-        }
-
-        .footer {
-            margin-top: 3%;
-            background-color:#F2F2F2;
-            display: flex;
-            width: 100%;
-        }
-        
-        .a_propos {
-            width: 33%;
-            margin-left: 5%;
-            margin-bottom: 20px;
-        }
-        
-        .hebergement {
-            width: 33%;
-            margin-bottom: 20px;
-        }
-        
-        .assistance {
-            width: 33%;
-            margin-bottom: 20px;
-        }
-        
-        .footer p {
-            color: black
-        }
+    .visible {
+        display: inline-block;
     }
+
+    .submit {
+        display: none;
+    }
+
+    .ensemble_filtres {
+        display: flex;
+        flex-wrap: wrap;
+        border: 2px solid #d9d9d9;
+        border-radius: 2em;
+        margin-bottom: 15px;
+        font-weight: bold;   
+    }
+
+    .container_principal {
+        display: flex;
+        flex-flow: column-reverse;
+        flex-wrap: wrap;
+        width: 99%;
+        margin-top: 20px;
+    }
+
+    .container_1 {
+        display: flex;
+        flex-wrap: wrap;
+        background-color:white;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        width: 99%;
+    }
+        
+    .container_2 {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #F2F2F2;
+        border-radius: 10px;
+        width: 99%;
+        height: 550px;
+    }
+        
+    .card {
+        display: flex;
+        flex-wrap: wrap;
+        width: 99%;
+        border: 5px solid white;
+        background-color: white;
+        border-radius: 20px;
+        margin-top: 5px;
+        margin-bottom: 6px;
+        box-shadow: 0px 0px 5px #0000002e;
+    }
+        
+    .card2 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 99%;
+        height: 130px;
+        border: 5px solid white;
+        background-color: white;
+        border-radius: 20px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        box-shadow: 0px 0px 5px #0000002e;
+    }
+
+    .image2 {
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        width: 150px;
+        height: 130px;
+        object-fit: cover;
+    }
+
+    #activités {
+        display: flex;
+        flex-flow: column wrap;
+        width: 100%;
+    }
+        
+    .descr_1, .descr_3 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        border-radius: 1em;
+        box-shadow: 0px 0px 20px #0000002e;
+    }
+        
+    .descr_2, .descr_4 {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width: 100%;
+    }
+        
+    .sous_descr1 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        border-radius: 1em;
+        box-shadow: 0px 0px 20px #0000002e;
+    }
+        
+    .sous_descr2 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        border-radius: 1em;
+        box-shadow: 0px 0px 20px #0000002e;
+    }
+
+    .image_secondaire {
+        position: relative;
+        width: 100%;
+        height: 150px;
+        border-top-left-radius: 1em;
+        border-top-right-radius: 1em;
+        object-fit: cover;
+    }
+        
+    .image_secondaire2 {
+        position: relative;
+        width: 100%;
+        height: 150px;
+        border-top-left-radius: 1em;
+        border-top-right-radius: 1em;
+        object-fit: cover;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        background-color:#F2F2F2;
+    }
+        
+    .a_propos {
+        display: flex;
+        flex-wrap: wrap;
+    }
+        
+    .hebergement {
+        display: flex;
+        flex-wrap: wrap;
+    }
+        
+    .assistance {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1317px)  {
+        
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: auto;
+        width: 100%;
+    }
+        
+    .barre {
+        display: flex;
+        font-weight: bold;
+    }
+        
+    .barre nav {
+        display: flex;
+        align-items: center;
+    }
+        
+    .inscrire {
+        display: flex;
+        align-items: center;
+        padding: 2rem;
+        color: #0065FC;
+        text-decoration: none;
+        font-weight: bold;
+    }
+        
+    .choix {
+        text-decoration: none;
+        color: #a5a5a5;
+        padding: 2rem;
+    }
+        
+    .choix:hover {
+        border-top: 3px solid #0065FC;
+        color: #0065FC;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .ensemble {
+        display: flex;
+        margin-top: 2em;
+    }
+
+    .submit {
+        display: none;
+    }
+
+    .visible {
+        display: inline-block;
+    }
+
+    .ensemble_filtres {
+        display: flex;
+        flex-wrap: wrap;
+        border: 2px solid #d9d9d9;
+        border-radius: 2em;
+        margin-bottom: 15px;
+        font-weight: bold;   
+    }
+
+    .container_principal {
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        width: 99%;
+        margin-top: 20px;
+    }
+
+    .container_1 {
+        display: flex;
+        flex-wrap: wrap;
+        background-color:white;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        width: 99%;
+    }
+        
+    .container_2 {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #F2F2F2;
+        border-radius: 10px;
+        width: 99%;
+        height: auto;
+        padding-bottom: 1rem;
+    }
+        
+    .card {
+        display: flex;
+        flex-wrap: wrap;
+        width: 30%;
+        border: 5px solid white;
+        background-color: white;
+        border-radius: 20px;
+        margin-top: 5px;
+        margin-bottom: 6px;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 1px;
+        box-shadow: 0px 0px 5px #0000002e;
+    }
+        
+    .card2 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 30%;
+        height: 130px;
+        border: 5px solid white;
+        background-color: white;
+        border-radius: 20px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-right: 0.5rem;
+        margin-left: 0.5rem;
+        box-shadow: 0px 0px 5px #0000002e;
+    }
+
+    .afficher {
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+
+    .image2 {
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        width: 120px;
+        height: 130px;
+        object-fit: cover;
+    }
+
+    #activités {
+        display: flex;
+        background-color: white;
+        width: 100%;
+    }
+        
+    .descr_1, .descr_3 {
+        display: flex;
+        width: 23%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        border-radius: 1em;
+        box-shadow: 0px 0px 20px #0000002e;
+    }
+        
+    .descr_2, .descr_4 {
+        display: flex;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        width: 23%;
+    }
+        
+    .sous_descr1 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 99%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        border-radius: 1em;
+        box-shadow: 0px 0px 20px #0000002e;
+    }
+        
+    .sous_descr2 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 99%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        border-radius: 1em;
+        box-shadow: 0px 0px 20px #0000002e;
+    }
+
+    .image_secondaire {
+        position: relative;
+        width: 100%;
+        height: 360px;
+        border-top-left-radius: 1em;
+        border-top-right-radius: 1em;
+        object-fit: cover;
+    }
+        
+    .image_secondaire2 {
+        position: relative;
+        width: 100%;
+        height: 150px;
+        border-top-left-radius: 1em;
+        border-top-right-radius: 1em;
+        object-fit: cover;
+    }
+
+    .footer {
+        margin-top: 3%;
+        background-color:#F2F2F2;
+        display: flex;
+        width: 100%;
+    }
+        
+    .a_propos {
+        width: 33%;
+        margin-bottom: 20px;
+    }
+        
+    .hebergement {
+        width: 33%;
+        margin-bottom: 20px;
+    }
+        
+    .assistance {
+        width: 33%;
+        margin-bottom: 20px;
+    }
+        
+    .footer p {
+        color: black
+    }
+}
