@@ -1,6 +1,7 @@
 body {
     font-family: raleway, sans-serif;
     font-size: 0.9em;
+    margin: 0px;
 }
 
 header {
@@ -234,10 +235,6 @@ a {
     margin: 5px;
 }
 
-#hebergements {
-    width: 99%;
-}
-
 .lien {
     color: black;
 }
@@ -285,7 +282,7 @@ a {
 }
 
 .titre2 {
-    width: 99%;
+    width: 100%;
 }
 
 .secondaire {
@@ -373,27 +370,28 @@ a {
 }
 
 .footer {
-    margin-top: 3%;
-    background-color:#F2F2F2;
     display: flex;
     width: 100%;
+    margin-top: 25px;
+    background-color:#F2F2F2;
 }
 
 .a_propos {
     width: 33%;
-    margin-left: 5%;
+    padding-left: 1;
     margin-bottom: 20px;
 }
-
+    
 .hebergement {
     width: 33%;
     margin-bottom: 20px;
 }
-
+    
 .assistance {
     width: 33%;
     margin-bottom: 20px;
 }
+ 
 
 .footer p {
     color: black
@@ -419,39 +417,51 @@ a {
     margin-right: 0.5rem;
 }
 
-@media only screen and (max-width: 767px) {   
+@media only screen and (max-width: 860px) {   
+
+    body {
+        margin: 0px;
+        padding: 0;
+    }
 
     header {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
+        align-items: flex-start;
     }
-        
+
     .barre {
         display: flex;
+        flex-direction: column;
+        width: 100%;
         font-weight: bold;
     }
         
     .barre nav {
         display: flex;
-        align-items: center;
-        text-decoration: none;
-        color: #a5a5a5;
+        width: 100%;
     }
         
     .inscrire {
         position: absolute;
+        padding: 0;
         top: 5px;
         right: 10px;
-        text-decoration: none;
         font-weight: bold;
     }
-        
-    .choix:hover {
-        border-bottom: 2px solid #0065FC;
+
+    .choix {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 50%;
+        border-bottom: 3px solid;
     }
-        
+
+    .choix:hover {
+        border-top: 3px solid white;
+    }
+       
     a {
         text-decoration: none;
     }
@@ -475,149 +485,183 @@ a {
 
     .container_principal {
         display: flex;
-        flex-flow: column-reverse;
-        flex-wrap: wrap;
-        width: 99%;
-        margin-top: 20px;
+        flex-direction: column-reverse;
+        width: 100%;
     }
 
     .container_1 {
         display: flex;
         flex-wrap: wrap;
-        background-color:white;
+        flex-direction: column;
+        background-color: white;
         border-radius: 10px;
-        margin-bottom: 20px;
-        width: 99%;
+        margin: 0px;
+        width: 100%;
     }
         
     .container_2 {
         display: flex;
+        flex-direction: column;
         flex-wrap: wrap;
         background-color: #F2F2F2;
         border-radius: 10px;
-        width: 99%;
-        height: 550px;
+        width: 100%;
     }
         
     .card {
         display: flex;
         flex-wrap: wrap;
-        width: 99%;
-        border: 5px solid white;
-        background-color: white;
+        border: 3px solid white;
         border-radius: 20px;
-        margin-top: 5px;
-        margin-bottom: 6px;
+        margin: 10px;
+        width: 100%;
         box-shadow: 0px 0px 5px #0000002e;
+    }
+
+    .text {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .star {
+        padding-left: 5px;
+    }
+
+    .container_card {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0px;
+    }
+
+    .container_card2 {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0px;
     }
         
     .card2 {
         display: flex;
         flex-wrap: wrap;
-        width: 99%;
-        height: 130px;
-        border: 5px solid white;
-        background-color: white;
+        justify-content: space-between;
+        border: 4px solid white;
         border-radius: 20px;
-        margin-top: 5px;
-        margin-bottom: 5px;
+        margin: 5px;
+        width: 100%;
         box-shadow: 0px 0px 5px #0000002e;
     }
 
     .image2 {
         border-top-left-radius: 20px;
         border-bottom-left-radius: 20px;
-        width: 150px;
-        height: 130px;
+        width: 130px;
+        margin: 0px;
+        object-fit: cover;
+    }
+
+    .image {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        margin: 0px;
         object-fit: cover;
     }
 
     #activités {
         display: flex;
-        flex-flow: column wrap;
+        flex-wrap: wrap;
         width: 100%;
     }
         
     .descr_1, .descr_3 {
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 0px;
         width: 100%;
-        margin-top: 5px;
-        margin-bottom: 5px;
-        border-radius: 1em;
         box-shadow: 0px 0px 20px #0000002e;
     }
         
     .descr_2, .descr_4 {
         display: flex;
         flex-wrap: wrap;
-        margin-top: 5px;
-        margin-bottom: 5px;
+        justify-content: space-between;
         width: 100%;
+        margin: 0px;
     }
         
     .sous_descr1 {
         display: flex;
         flex-wrap: wrap;
-        width: 100%;
-        margin-top: 5px;
-        margin-bottom: 5px;
-        border-radius: 1em;
+        margin: 0px;
         box-shadow: 0px 0px 20px #0000002e;
     }
         
     .sous_descr2 {
         display: flex;
         flex-wrap: wrap;
-        width: 100%;
-        margin-top: 5px;
-        margin-bottom: 5px;
-        border-radius: 1em;
+        margin: 0px;
         box-shadow: 0px 0px 20px #0000002e;
     }
 
     .image_secondaire {
         position: relative;
-        width: 100%;
-        height: 150px;
         border-top-left-radius: 1em;
         border-top-right-radius: 1em;
+        height: auto;
         object-fit: cover;
     }
         
     .image_secondaire2 {
         position: relative;
-        width: 100%;
-        height: 150px;
         border-top-left-radius: 1em;
         border-top-right-radius: 1em;
+        height: auto;
         object-fit: cover;
     }
 
-    footer {
+    .act {
         display: flex;
-        justify-content: center;
-        margin-top: 10px;
+        max-height: 150px;
+    }
+
+    .secondaire {
+        width: 100%;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
         background-color:#F2F2F2;
+        margin: 0px;
     }
         
     .a_propos {
         display: flex;
+        flex-direction: column;
         flex-wrap: wrap;
+        width: 100%;
+        margin: 0px;
+        padding: 0;
     }
         
     .hebergement {
         display: flex;
+        flex-direction: column;
         flex-wrap: wrap;
+        width: 100%;
+        margin: 0px;
     }
         
     .assistance {
         display: flex;
+        flex-direction: column;
         flex-wrap: wrap;
+        width: 100%;
+        margin: 0px;
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1317px)  {
+@media only screen and (min-width: 861px) and (max-width: 1317px)  {
         
     header {
         display: flex;
