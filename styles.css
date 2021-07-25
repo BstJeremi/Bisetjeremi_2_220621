@@ -1,14 +1,12 @@
 body {
     font-family: raleway, sans-serif;
     font-size: 0.9em;
-    margin: 0px;
 }
 
 header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: auto;
     width: 100%;
 }
 
@@ -134,10 +132,6 @@ a {
     margin-top: 20px;
 }
 
-.intro p, h1 {
-    margin-left: 10px;
-}
-
 .container_principal {
     display: flex;
     width: 100%;
@@ -148,7 +142,6 @@ a {
     border-radius: 10px;
     width: 65%;
     margin-right: 30px;
-    margin-left: 10px;
 }
 
 .container_2 {
@@ -156,7 +149,7 @@ a {
     flex-direction: column;
     background-color: #F2F2F2;
     border-radius: 10px;
-    width: 30%;
+    width: 33%;
 }
 
 .card {
@@ -221,19 +214,6 @@ a {
     width: 85%;
 }
 
-.text h3, p {
-    margin-left: 5px;
-}
-
-.star1 {
-    padding-top: 10px;
-    margin-left: 5px;
-}
-
-.card2 h3, p {
-    margin: 5px;
-}
-
 .lien {
     color: black;
 }
@@ -281,14 +261,6 @@ a {
 
 .titre2 {
     width: 100%;
-}
-
-.descr_1 {
-    margin-left: 15px;
-}
-
-.descr_4 {
-    margin-right: 15px;
 }
 
 .descr_1, .descr_3 {
@@ -372,7 +344,6 @@ a {
     justify-content: space-around;
     width: 100%;
     margin-top: 25px;
-    padding-left: 20px;
     background-color:#F2F2F2;
 }
 
@@ -411,12 +382,7 @@ a {
     justify-content: center;
 }
 
-@media only screen and (max-width: 860px) {   
-
-    body {
-        margin: 0px;
-        padding: 0;
-    }
+@media only screen and (max-width: 980px) {   
 
     header {
         display: flex;
@@ -660,7 +626,7 @@ a {
     }
 }
 
-@media only screen and (min-width: 861px) and (max-width: 1317px)  {
+@media only screen and (min-width: 980px) and (max-width: 1317px)  {
         
     header {
         display: flex;
